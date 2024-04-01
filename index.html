@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>SPLITTER</title>
+    <link rel="stylesheet" href="./css/style.css" />
+  </head>
+  <body>
+    <main class="main">
+      <div class="container spilter-container">
+        <img src="./img/SPLITTER (1).svg" alt="" width="87" height="54" />
+      </div>
+      <div class="main-container container">
+         <!-- FIRST BLOCK  -->
+        <div class="first-block" >   
+          <label class="lable" for="bill">Bill</label>
+          <div class="input">
+            <img
+              class="input-img"
+              src="./img/dollor-icon.svg"
+              alt="sollor icon"
+              width="10"
+              height="16"
+            />
+            <input class="inner-input" id="bill" type="text" />
+          </div>
+
+          <div class="select-tip">
+            <p class="select-tip-paragraph">Select Tip %</p>
+            <div class="span">
+              <span class="tip-prosent">5%</span>
+              <span class="tip-prosent">10%</span>
+              <span class="tip-prosent">15%</span>
+            </div>
+            <div class="span">
+              <span class="tip-prosent">25%</span>
+              <span class="tip-prosent">50%</span>
+              <span class="tip-prosent custom">Custom</span>
+            </div>
+          </div>
+
+          <div>
+            <label class="numberof-people" for="number">Number of People</label>
+            <div class="input">
+              <img
+                class="input-img"
+                src="./img/person-icon.svg"
+                alt="person icon"
+                width="13"
+                height="16"
+              />
+              <input class="inner-input" id="number" type="text" />
+            </div>
+          </div>
+        </div>
+          <!-- FIRST END  -->
+        <div class="counted-numbers container">
+          <div class="text-wrapper">
+            <div class="tip">
+              <div class="tip-text">
+                <p class="tip-ampunt">Tip Amount</p>
+                <p class="person">/ person</p>
+              </div>
+              <p class="tip-number">$0.00</p>
+            </div>
+            <div class="total">
+              <div class="total-text">
+                <p class="total-ampunt">Total</p>
+                <p class="person">/ person</p>
+              </div>
+              <p class="tip-number">$0.00</p>
+            </div>
+          </div>
+          <a class="text-wrapper-link" href="#">RESET</a>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
