@@ -17,258 +17,258 @@
 
 /* space-mono-700 - latin */
 @font-face {
-    font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
-    font-family: "Space Mono";
-    font-style: normal;
-    font-weight: 700;
-    src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
-  }
-  
-  *,
-  *::after,
-  *::before {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-  }
-  
-  html {
-    height: 100%;
-    scroll-behavior: smooth;
-  }
-  
-  ul,
-  ol {
-    list-style: none;
-  }
-  
-  a {
-    display: inline-block;
-    text-decoration: none;
-  }
-  
-  img {
-    display: flex;
-    object-fit: cover;
-  }
-  
-  body {
-    height: 100%;
-    display: flex;
-    flex-direction: column;
-    background-color: #c5e4e7;
-  }
-  
-  /* normalize css problem fixed */
-  h1 {
-    margin: 0;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1000px; /* it depends on you project */
-    margin-left: auto;
-    margin-right: auto;
-    padding-left: 48px;
-    padding-right: 32px;
-    padding-top: 32px;
-    padding-bottom: 32px;
-    background-color: #fff;
-  }
-  
-  .calculator-container {
-    background-color: #c5e4e7;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 150px;
-    margin-bottom: 88px;
-  }
-  
-  main {
-    flex-grow: 1;
-  }
-  
-  .main-container {
-    border-radius: 25px;
-    box-shadow: 0px 32px 43px 0px #4fa6af33;
-    display: flex;
-    gap: 40px;
-    justify-content: center;
-    height: 481px;
-  }
-  
-  .input {
-    display: flex;
-    border: 2px solid transparent;
-    width: 379px;
-    background-color: #f3f9fa;
-    border-radius: 8px;
-    margin-bottom: 40px;
-    margin-top: 12px;
-  }
-  
-  .input-img {
-    margin-top: 17px;
-    margin-bottom: 16px;
-    margin-left: 19px;
-  }
-  
-  label {
-    margin-left: 5px;
-    font-family: "Space Mono", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-    color: #5e7a7d;
-  }
-  
-  .inner-input {
-    display: inline-block;
-    border: none;
-    widows: 369px;
-    border: none;
-    background-color: #f3f9fa;
-    width: 379px;
-    font-family: "Space Mono", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35.54px;
-    text-align: right;
-    color: #00474b;
-    outline: none;
-  }
-  
-  .select-tip {
-    width: 379px;
-    display: flex;
-    flex-direction: column;
-    gap: 16px;
-    margin-bottom: 40px;
-  }
-  
-  .span {
-    display: flex;
-    gap: 14px;
-  }
-  
-  .tip-prosent {
-    width: 117px;
-    font-family: "Space Mono", sans-serif;
-    font-size: 24px;
-    font-weight: 700;
-    line-height: 35.54px;
-    text-align: center;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    padding: 13px 39px;
-    border-radius: 8px;
-    background-color: #00474b;
-    color: #fff;
-  }
-  
-  .tip-prosent:hover {
-    background-color: #9fe8df;
-    color: #00474b;
-  }
-  
-  .custom {
-    text-align: center;
-    color: #547878;
-    background-color: #fff;
-  }
-  
-  .numberof-people {
-    font-family: "Space Mono", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-    color: #5e7a7d;
-  }
-  
-  .counted-numbers {
-    background-color: #00474b;
-    width: 413px;
-    height: 420px;
-    border-radius: 20px;
-    padding-top: 50px;
-  }
-  .text-wrapper {
-    display: flex;
-    flex-direction: column;
-  }
-  .tip {
-    display: flex;
-    align-items: center;
-    gap: 92px;
-    margin-bottom: 52px;
-  }
-  .tip-text {
-    display: flex;
-    flex-direction: column;
-  }
-  .tip-ampunt {
-    font-family: "Space Mono", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-    color: #fff;
-    width: 98px;
-  }
-  .person {
-    font-family: "Space Mono", sans-serif;
-    font-size: 13px;
-    font-weight: 700;
-    line-height: 19.25px;
-    text-align: left;
-    color: #7f9d9f;
-  }
-  .tip-number {
-    font-family: "Space Mono", sans-serif;
-    font-size: 48px;
-    font-weight: 700;
-    line-height: 71.09px;
-    letter-spacing: -1px;
-    text-align: right;
-    color: #26c2ae;
-    width: 64px;
-  }
-  .total {
-    display: flex;
-    align-items: center;
-    gap: 126px;
-    margin-bottom: 52px;
-    margin-bottom: 100px;
-  }
-  
-  .total-ampunt {
-    font-family: " Space Mono", sans-serif;
-    font-size: 16px;
-    font-weight: 700;
-    line-height: 23.7px;
-    text-align: left;
-    color: #fff;
-  }
-  .text-wrapper-link {
-    font-family: "Space Mono", sans-serif;
-    font-size: 20px;
-    font-weight: 700;
-    line-height: 29.62px;
-    color: #00474b;
-    background-color: #26c2ae;
-    padding-top: 9px;
-    padding-bottom: 9px;
-    text-align: center;
-    width: 333px;
-    border-radius: 8px;
-  }
-  
-  .text-wrapper-link:hover {
-    background-color: #9fe8df;
-    color: #00474b;
-  }
+  font-display: swap; /* Check https://developer.mozilla.org/en-US/docs/Web/CSS/@font-face/font-display for other options. */
+  font-family: "Space Mono";
+  font-style: normal;
+  font-weight: 700;
+  src: url("../fonts/space-mono-v13-latin-700.woff2") format("woff2"); /* Chrome 36+, Opera 23+, Firefox 39+, Safari 12+, iOS 10+ */
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  scroll-behavior: smooth;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+}
+
+img {
+  display: flex;
+  object-fit: cover;
+}
+
+body {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #c5e4e7;
+}
+
+/* normalize css problem fixed */
+h1 {
+  margin: 0;
+}
+
+.container {
+  width: 100%;
+  max-width: 1000px; /* it depends on you project */
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 48px;
+  padding-right: 32px;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  background-color: #fff;
+}
+
+.calculator-container {
+  background-color: #c5e4e7;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+  margin-bottom: 88px;
+}
+
+main {
+  flex-grow: 1;
+}
+
+.main-container {
+  border-radius: 25px;
+  box-shadow: 0px 32px 43px 0px #4fa6af33;
+  display: flex;
+  gap: 40px;
+  justify-content: center;
+  height: 481px;
+}
+
+.input {
+  display: flex;
+  border: 2px solid transparent;
+  width: 379px;
+  background-color: #f3f9fa;
+  border-radius: 8px;
+  margin-bottom: 40px;
+  margin-top: 12px;
+}
+
+.input-img {
+  margin-top: 17px;
+  margin-bottom: 16px;
+  margin-left: 19px;
+}
+
+label {
+  margin-left: 5px;
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.7px;
+  text-align: left;
+  color: #5e7a7d;
+}
+
+.inner-input {
+  display: inline-block;
+  border: none;
+  widows: 369px;
+  border: none;
+  background-color: #f3f9fa;
+  width: 379px;
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35.54px;
+  text-align: right;
+  color: #00474b;
+  outline: none;
+}
+
+.select-tip {
+  width: 379px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-bottom: 40px;
+}
+
+.span {
+  display: flex;
+  gap: 14px;
+}
+
+.tip-prosent {
+  width: 117px;
+  font-family: "Space Mono", sans-serif;
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 35.54px;
+  text-align: center;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 13px 39px;
+  border-radius: 8px;
+  background-color: #00474b;
+  color: #fff;
+}
+
+.tip-prosent:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+}
+
+.custom {
+  text-align: center;
+  color: #547878;
+  background-color: #fff;
+}
+
+.numberof-people {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.7px;
+  text-align: left;
+  color: #5e7a7d;
+}
+
+.counted-numbers {
+  background-color: #00474b;
+  width: 413px;
+  height: 420px;
+  border-radius: 20px;
+  padding-top: 50px;
+}
+.text-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+.tip {
+  display: flex;
+  align-items: center;
+  gap: 92px;
+  margin-bottom: 52px;
+}
+.tip-text {
+  display: flex;
+  flex-direction: column;
+}
+.tip-ampunt {
+  font-family: "Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.7px;
+  text-align: left;
+  color: #fff;
+  width: 98px;
+}
+.person {
+  font-family: "Space Mono", sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  line-height: 19.25px;
+  text-align: left;
+  color: #7f9d9f;
+}
+.tip-number {
+  font-family: "Space Mono", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 71.09px;
+  letter-spacing: -1px;
+  text-align: right;
+  color: #26c2ae;
+  width: 64px;
+}
+.total {
+  display: flex;
+  align-items: center;
+  gap: 126px;
+  margin-bottom: 52px;
+  margin-bottom: 100px;
+}
+
+.total-ampunt {
+  font-family: " Space Mono", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  line-height: 23.7px;
+  text-align: left;
+  color: #fff;
+}
+.text-wrapper-link {
+  font-family: "Space Mono", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  line-height: 29.62px;
+  color: #00474b;
+  background-color: #26c2ae;
+  padding-top: 9px;
+  padding-bottom: 9px;
+  text-align: center;
+  width: 333px;
+  border-radius: 8px;
+}
+
+.text-wrapper-link:hover {
+  background-color: #9fe8df;
+  color: #00474b;
+}
